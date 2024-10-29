@@ -1,5 +1,6 @@
 package com.kiganda.servspace.model;
-import javax.persistence.*;
+
+// import javax.persistence.*;
 
 import jakarta.persistence.Entity;
 
@@ -16,6 +17,6 @@ public class Task {
         private String description;
         private boolean completed;
         private LocalDateTime createdAt;
-        
+
 
 }
